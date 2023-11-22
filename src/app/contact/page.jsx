@@ -3,6 +3,11 @@ import React from "react";
 import styles from "./page.module.css";
 import Button from "@/components/Button/Button";
 
+export const metadata = {
+  title: "ACG contact dev",
+  description: "Hola esta es la descripcion",
+};
+
 const Contact = () => {
   return (
     <div className={styles.container}>
